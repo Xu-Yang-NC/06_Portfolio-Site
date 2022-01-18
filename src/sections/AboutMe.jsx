@@ -24,13 +24,20 @@ function AboutMe() {
             <div className='icon-container'>
               <a
                 href='https://www.linkedin.com/in/xu-yang-530838181/'
-                target='_blank'>
+                target='_blank'
+                rel='noopener noreferrer'>
                 <AiFillLinkedin className='icons' />
               </a>
-              <a href='https://github.com/Xu-Yang-NC' target='_blank'>
+              <a
+                href='https://github.com/Xu-Yang-NC'
+                target='_blank'
+                rel='noopener noreferrer'>
                 <AiFillGithub className='icons' />
               </a>
-              <a href='https://www.facebook.com/xu.yang.73594/' target='_blank'>
+              <a
+                href='https://www.facebook.com/xu.yang.73594/'
+                target='_blank'
+                rel='noopener noreferrer'>
                 <AiFillFacebook className='icons' />
               </a>
             </div>
@@ -39,13 +46,14 @@ function AboutMe() {
               CNC machine shop as a CNC engineer for a year after I graduated. I
               noticed I could solve a lot more problems if I know how to
               program. Therefore, I decided to pursue my master's degree in
-              Computer Science. Though I don't pick a concentration for my
-              master's degree, I would like to be a backend developer at the end
-              of the day.
+              Computer Science. I would like to be a backend developer at the
+              end of the day.
             </p>
             <div className='btn-project'>
               <AiOutlineRight />
-              <a href='#projects'>Check My Works</a>
+              <a href='#projects' rel='noopener noreferrer'>
+                Check My Works
+              </a>
             </div>
           </div>
         </div>

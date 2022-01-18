@@ -1,4 +1,5 @@
 import Typical from 'react-typical';
+import Resume from '../assets/Resume.pdf';
 
 function Welcome() {
   return (
@@ -7,19 +8,29 @@ function Welcome() {
       <nav id='navbar'>
         <ul>
           <li>
-            <a href='#home'>Home</a>
+            <a href='#home' rel='noopener noreferrer'>
+              Home
+            </a>
           </li>
           <li>
-            <a href='#about'>About</a>
+            <a href='#about' rel='noopener noreferrer'>
+              About
+            </a>
           </li>
           <li>
-            <a href='#skills'>Skills</a>
+            <a href='#skills' rel='noopener noreferrer'>
+              Skills
+            </a>
           </li>
           <li>
-            <a href='#projects'>Projects</a>
+            <a href='#projects' rel='noopener noreferrer'>
+              Projects
+            </a>
           </li>
           <li>
-            <a href='#contact'>Contact</a>
+            <a href='#contact' rel='noopener noreferrer'>
+              Contact
+            </a>
           </li>
         </ul>
         <div className='space'></div>
@@ -34,7 +45,7 @@ function Welcome() {
               <Typical
                 loop={Infinity}
                 steps={[
-                  'Currently Enrolled in The CS Master Program at UNC Charlotte',
+                  'A Masters Student in Computer Science at UNC Charlotte',
                   2000,
                   'Looking for 2022 Summer Internship',
                   2000,
@@ -44,10 +55,13 @@ function Welcome() {
           </div>
         </div>
         <div className='buttons-container'>
-          <a href='' className='btn btn-primary'>
+          <a href={Resume} download='Resume.pdf' className='btn btn-primary'>
             Resume
           </a>
-          <a href='#contact' className='btn btn-secondary'>
+          <a
+            href='#contact'
+            rel='noopener noreferrer'
+            className='btn btn-secondary'>
             Contact
           </a>
         </div>

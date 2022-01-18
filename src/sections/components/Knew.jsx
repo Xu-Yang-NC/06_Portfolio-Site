@@ -43,6 +43,12 @@ function Knew() {
           <div style={{ width: '50%' }}></div>
         </div>
       </div>
+      <div className='progress-container'>
+        <h4>Node.js: </h4>
+        <div className='progress'>
+          <div style={{ width: '65%' }}></div>
+        </div>
+      </div>
     </div>
   );
 }
