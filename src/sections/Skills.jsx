@@ -36,7 +36,7 @@ function Skills() {
       <div data-aos='fade-right' className='container'>
         <h1 className='z-2'>&lt; Skills /&gt;</h1>
         <div className='info-skills'>
-          <div className='pointer'>
+          <div className='pointer z-3'>
             <div
               className='skill-item'
               onClick={handleKnew}

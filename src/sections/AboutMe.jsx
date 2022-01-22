@@ -18,7 +18,6 @@ function AboutMe() {
     <div id='about'>
       <div className='container'>
         <div data-aos='fade-up' className='info-content'>
-          <img className='about-img' src={about} alt='pic' />
           <div className='about-content'>
             <h1 className='z-2'>&lt; About Me /&gt;</h1>
             <div className='icon-container'>
@@ -26,22 +25,22 @@ function AboutMe() {
                 href='https://www.linkedin.com/in/xu-yang-530838181/'
                 target='_blank'
                 rel='noopener noreferrer'>
-                <AiFillLinkedin className='icons' />
+                <AiFillLinkedin className='icons z-2' />
               </a>
               <a
                 href='https://github.com/Xu-Yang-NC'
                 target='_blank'
                 rel='noopener noreferrer'>
-                <AiFillGithub className='icons' />
+                <AiFillGithub className='icons z-2' />
               </a>
               <a
                 href='https://www.facebook.com/xu.yang.73594/'
                 target='_blank'
                 rel='noopener noreferrer'>
-                <AiFillFacebook className='icons' />
+                <AiFillFacebook className='icons z-2' />
               </a>
             </div>
-            <p>
+            <p className='z-3'>
               I graduated with a Civil Engineering degree. But, I worked in a
               CNC machine shop as a CNC engineer for a year after I graduated. I
               noticed I could solve a lot more problems if I know how to
@@ -49,12 +48,15 @@ function AboutMe() {
               Computer Science. I would like to be a backend developer at the
               end of the day.
             </p>
-            <div className='btn-project'>
+            <div className='btn btn-primary'>
               <AiOutlineRight />
               <a href='#projects' rel='noopener noreferrer'>
                 Check My Works
               </a>
             </div>
+          </div>
+          <div className='img-container'>
+            <img className='about-img' src={about} alt='pic' />
           </div>
         </div>
       </div>

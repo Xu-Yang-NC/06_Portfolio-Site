@@ -3,6 +3,7 @@ import AboutMe from './sections/AboutMe';
 import Skills from './sections/Skills';
 import Project from './sections/Projects';
 import Contact from './sections/Contact';
+import 'swiper/css/bundle';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 

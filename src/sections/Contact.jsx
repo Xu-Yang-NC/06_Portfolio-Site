@@ -1,6 +1,9 @@
 import React, { useRef, useState, useEffect } from 'react';
 import emailjs from '@emailjs/browser';
 import { toast } from 'react-toastify';
+import { HiOutlineMail } from 'react-icons/hi';
+import { SiMinutemailer } from 'react-icons/si';
+import contact from '../assets/contact-bg.jpg';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
@@ -84,10 +87,14 @@ function Contact() {
       <div data-aos='zoom-in' className='container'>
         <h1 className='z-2'>&lt; Contact Me /&gt;</h1>
         <div className='contact-container'>
-          <div className='contact-img'></div>
+          <img className='contact-img' src={contact} alt='' />
           <div className='form-container'>
             <form ref={form} onSubmit={sendEmail}>
-              <h1>Send me an email</h1>
+              <h1>
+                {' '}
+                <HiOutlineMail className='icons' />
+                &nbsp; Send me an email
+              </h1>
               <div className='form-item'>
                 <label htmlFor=''>Name</label>
                 <input
