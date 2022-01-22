@@ -2,7 +2,6 @@ import React, { useRef, useState, useEffect } from 'react';
 import emailjs from '@emailjs/browser';
 import { toast } from 'react-toastify';
 import { HiOutlineMail } from 'react-icons/hi';
-import { SiMinutemailer } from 'react-icons/si';
 import contact from '../assets/contact-bg.jpg';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
